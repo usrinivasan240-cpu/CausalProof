@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #0f172a;
+  --paper: #f8fafc;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  @apply bg-white border border-slate-200 rounded-lg shadow-sm;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md font-medium text-sm transition-colors duration-150;
+}
+
+.btn-primary {
+  @apply btn bg-accent text-white hover:bg-accent-dark;
+}
+
+.btn-secondary {
+  @apply btn bg-slate-100 text-ink hover:bg-slate-200;
+}
+
+.badge {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+}
+
+.badge-expected { @apply bg-slate-100 text-slate-700; }
+.badge-observed { @apply bg-emerald-50 text-emerald-700; }
+.badge-failed   { @apply bg-red-50 text-red-700; }
+.badge-uncertain { @apply bg-amber-50 text-amber-700; }
+.badge-external { @apply bg-blue-50 text-blue-700; }
