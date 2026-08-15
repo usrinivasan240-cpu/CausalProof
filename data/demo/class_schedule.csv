@@ -1,0 +1,11 @@
+day,class_name,start_time,end_time,room
+Monday,Mathematics,10:00,12:00,R101
+Monday,Physics,11:00,13:00,R102
+Tuesday,Computer Science,10:00,12:00,R103
+Tuesday,Chemistry,14:00,16:00,R104
+Wednesday,Mathematics,11:00,13:00,R105
+Wednesday,Statistics,15:00,17:00,R106
+Thursday,Physics,10:00,12:00,R107
+Thursday,Engineering Lab,14:00,16:00,R108
+Friday,Statistics,11:00,13:00,R109
+Friday,Communications,15:00,17:00,R110
